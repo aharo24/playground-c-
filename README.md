@@ -1,2 +1,2 @@
-# playground-c-
+# playground-C++
 Retainer for C++
