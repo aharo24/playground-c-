@@ -9,8 +9,11 @@ each object has its own set of variables
 What he says about objects is SUPER important. 
 Remember, you're creating an instance(copy) of the class, NOT a link to the class itself.
 */
+
+
 using namespace std;
 
+int x=  2; 
 class AngelsClass {
     public:
         AngelsClass(string z){
