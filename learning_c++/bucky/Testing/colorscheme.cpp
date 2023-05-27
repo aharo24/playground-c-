@@ -35,7 +35,7 @@ class MyClass {
                 std::cout << "Hello World!\n";
             } else {
                 std::cout << "Goodbye World!\n";
-            }
+            } 
         }
     private:
         std::string name;
