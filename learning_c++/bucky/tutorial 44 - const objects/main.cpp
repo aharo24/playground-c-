@@ -2,6 +2,10 @@
 const --> it never chages
 you dont want them to change 
 
+    - A constant object can not call a function that is not constant, 
+    BUT a regular object can call a constant function.
+
+
 */
 #include "Sally.h"
 #include <iostream>
@@ -9,9 +13,9 @@ using namespace std;
 
 int main()
 {
-    const int x= 3;
-    x= 5;
+    Sally salObj;
+    salObj.printShiz();
 
-    cout<< x<< endl; 
-
+    const Sally constObj;
+    constObj.printShiz2();
 }
